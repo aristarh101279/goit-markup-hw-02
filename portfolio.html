@@ -3,86 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Студія</title>
+    <title>Портфоліо</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Хедер -->
     <header>
-    <a href="#">WebStudio</a>
+    <a class="header-logo" href="#"><span class="logo">Web</span>Studio</a>
         <nav>
         <ul>
-            <li><a href="#">Студія</a></li>
-            <li><a href="#">Портфоліо</a></li>
+            <li><a href="./index.html">Студія</a></li>
+            <li><a href="./portfolio.html">Портфоліо</a></li>
             <li><a href="#">Контакти</a></li>
         </ul>
         </nav>
-        <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:380961111111">+38 096 111 11 11</a></li>
+        <ul class="contacts">
+            <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contacts-link" href="tel:380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
+            <!-- Портфоліо -->
     <main>
-        <!-- Шапка -->
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
-        </section>
-        <!-- Особливості -->
-        <section>
-        <ul>
-            <li>
-                <h3>Увага до деталей</h3>
-                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-            </li>
-            <li>
-                <h3>Пунктуальність</h3>
-                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-            </li>
-            <li>
-                <h3>Планування</h3>
-                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-            </li>
-            <li>
-                <h3>Сучасні технології</h3>
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-            </li>
-        </ul>
-        </section>
-        <!-- Чим ми займаємось -->
-        <section>
-            <h2>Чим ми займаємося</h2>
-            <ul>
-                <li><img src="./images/activity/box-1.jpg" alt="Людина працює за компьютером" width="370" height="294"></li>
-                <li><img src="./images/activity/box-2.jpg" alt="Людина дивиться на екран монітора з зображеними смартфонами" width="370" height="294"></li>
-                <li><img src="./images/activity/box-3.jpg" alt="В руках людини планшет" width="370" height="294"></li>
-            </ul>
-        </section>
-        <!-- Наша команда -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
-                <li><img src="./images/our-team/img-1.jpg" alt="Фото людини, що посміхається" width="270" height="260">
-                <h3>Ігор Дем'яненко</h3>
-                <p lang="en">Product Designer</p>
-                </li>
-                <li><img src="./images/our-team/img-2.jpg" alt="Фото людини, що посміхається" width="270" height="260">
-                <h3>Ольга Рєпіна</h3>
-                <p lang="en">Frontend Developer</p>
-                </li>
-                <li><img src="./images/our-team/img-3.jpg" alt="Фото людини, що посміхається" width="270" height="260">
-                <h3>Микола Тарасов</h3>
-                <p lang="en">Marketing</p>
-                </li>
-                <li><img src="./images/our-team/img-4.jpg" alt="Фото людини, що посміхається" width="270" height="260">
-                <h3>Михайло Єрмаков</h3>
-                <p lang="en">UI Designer</p>
-                </li>
-            </ul>
-        </section>
+<ul>
+    <li><button type="button">Усі</button></li>
+    <li><button type="button">Веб-сайти</button></li>
+    <li><button type="button">Додатки</button></li>
+    <li><button type="button">Дизайн</button></li>
+    <li><button type="button">Маркетинг</button></li>
+</ul>
+<Ul>
+    <li><a href="#">
+        <img src="./images/portfolio/1.jpg" alt="Монітор компьютера" width="370" height="294">
+        <h2>Технокряк</h2>
+        <p>Веб-сайт</p>
+    </a></li>
+    <li><a href="#">
+        <img src="./images/portfolio/2.jpg" alt="Два баскетболісти" width="370" height="294">
+        <h2>Постер New Orlean vs Golden Star</h2>
+        <p>Дизайн</p>
+    </a></li>
+    <li><a href="#">
+        <img src="./images/portfolio/3.jpg" alt="Логотип ресторану" width="370" height="294">
+        <h2>Ресторан Seafood</h2>
+        <p>Додаток</p>
+    </a></li>
+    <li><a href="#">
+        <img src="./images/portfolio/4.jpg" alt="Навушники" width="370" height="294">
+        <h2>Проєкт Prime</h2>
+        <p>Маркетинг</p>
+    </a></li>
+    <li><a href="#">
+        <img src="./images/portfolio/5.jpg" alt="Дві коробки" width="370" height="294">
+        <h2>Проєкт Boxes</h2>
+        <p>Додаток</p>
+    </a></li>
+    <li><a href="#">
+        <img src="./images/portfolio/6.jpg" alt="Монітор компьютера" width="370" height="294">
+        <h2>Inspiration has no Borders</h2>
+        <p>Веб-сайт</p>
+    </a></li>
+    <li><a href="#">
+        <img src="./images/portfolio/7.jpg" alt="Відкритий журнал" width="370" height="294">
+        <h2>Видання Limited Edition</h2>
+        <p>Дизайн</p>
+    </a></li>
+    <li><a href="#">
+        <img src="./images/portfolio/8.jpg" alt="Лейбл" width="370" height="294">
+        <h2>Проєкт LAB</h2>
+        <p>Маркетинг</p>
+    </a></li>
+    <li><a href="#">
+        <img src="./images/portfolio/9.jpg" alt="Відкритий ноутбук" width="370" height="294">
+        <h2>Growing Business</h2>
+        <p>Додаток</p>
+    </a></li>
+</Ul>
     </main>
     <!-- Підвал -->
-    <footer>
-        <a href="#">WebStudio</a>
+    <footer class="footer">
+        <a class="footer-logo" href="#"><span class="logo">Web</span>Studio</a>
         <address>
             м. Київ, пр-т Лесі Українки, 26
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
