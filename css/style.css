@@ -122,6 +122,10 @@ text-align: left;
 font-style: normal;
 text-decoration: none;
 }
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--color-btn);
+    
 /* Шапка (Hero) */
 .hero {
 background-color: #2F303A;
