@@ -20,22 +20,25 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: left;
+    text-decoration: none;
     }
-.nav-list-link{
+.nav .nav-list-link{
     color: var(--txt-color);
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
+    text-decoration: none;
 }
 .nav-list-link-active{
     color: var(--color-btn);
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
+    text-decoration: none;
 }
 .contacts .contacts-link{
     color: var(--txt-color);
@@ -44,13 +47,50 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
+    text-decoration: none;
 }
 
 .contacts-link:hover,
 .contacts-link:focus{
 color: var(--color-btn);
 }
-
+/* portfolio */
+.btn-list-item{
+    color: var(--txt-color);
+    background-color: #F5F4FA;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    text-align: center;
+    }
+.btn-list-item-active {
+    color: var(--main-color);
+    background-color: var(--color-btn);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.poster{
+color: var(--txt-color);
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.poster-item{
+color: var(--additional-color);
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.project-link{
+text-decoration: none;
+}
     /* footer */
 .footer{
     background-color: #2F303A;
@@ -63,4 +103,94 @@ color: var(--color-btn);
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: left;
+    text-decoration: none;
+}
+.footer-address{
+color: var(--main-color);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+font-style: normal;
+}
+.footer-link{
+color: #FFFFFF99;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+font-style: normal;
+text-decoration: none;
+}
+/* Шапка (Hero) */
+.hero {
+background-color: #2F303A;
+}
+.hero-title {
+color: var(--main-color);
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+}
+.hero-btn {
+color: var(--main-color);
+background-color: var(--color-btn);
+font-size: 16px;
+font-weight: 700;
+line-height: 1.88;
+letter-spacing: 0.06em;
+text-align: center;
+}
+/* Особенности */
+.advantage-title {
+color: var(--txt-color);
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-align: left;
+text-transform: uppercase;
+}
+.advantage-txt {
+color: var(--additional-color);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+}
+/* Чим займаємось */
+.work-title{
+color: var(--txt-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: center;
+}
+/* Наша команда */
+.command-title {
+color: var(--txt-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.command-name {
+color: var(--txt-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.command-txt {
+color: var(--additional-color);
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-align: center;
 }
