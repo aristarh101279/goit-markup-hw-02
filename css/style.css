@@ -44,7 +44,7 @@ body{
     text-decoration: none;
 }
 .contacts-link{
-    color: var(--txt-color);
+    color: var(--additional-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -55,9 +55,7 @@ body{
 .contacts{
     list-style: none;
 }
-.mail{
-    color: var(--color-btn);
-}
+
 .contacts-link:hover,
 .contacts-link:focus{
 color: var(--color-btn);
